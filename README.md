@@ -23,6 +23,7 @@ The goal is to deeply understand cryptographic principles by implementing everyt
 - Implements RSA manually, including prime generation, public/private keys, encryption and decryption.
 - Input: "This an lesson about Cryptography" <br>Output: Encrypted BigInteger + Decrypted message.
 <br>
+
 ### Java - Practical RSA & ECDSA with Libraries (BouncyCastle)
 **`Main.java`**
 - Full-feature cryptographic suite:
