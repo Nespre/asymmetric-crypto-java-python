@@ -22,11 +22,23 @@ The goal is to deeply understand cryptographic principles by implementing everyt
 **`RSAMain.java`**
 - Implements RSA manually, including prime generation, public/private keys, encryption and decryption.
 - Input: "This an lesson about Cryptography" <br>Output: Encrypted BigInteger + Decrypted message.
-
+<br>
 ### Java - Practical RSA & ECDSA with Libraries (BouncyCastle)
 **`Main.java`**
 - Full-feature cryptographic suite:
 	- ✔️RSA encryption/decryption
 	- ✔️RSA digital signatures (PSS + PKCS#1 v1.5)
 	- ✔️ECDSA signatures with verification
-- All done with security-focused libraries including B
+- All done with security-focused libraries including BouncyCastle.
+- Outputs shown in both **Hex** and **Base64**.
+
+### Python - Secure Crypto (Library-based)
+**`RSA.py`**
+- RSA encryption/decryption using cryptography primitives.
+- Securely handles message encoding and decoding.
+
+**`ELGamal.py`**
+- ElGamal encryption using secure libraries (PyCryptodome / cryptography).
+- Converts between bytes and strings, encrypts and decrypts securely.
+
+<br>
