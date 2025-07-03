@@ -91,3 +91,8 @@ Feel free to contribute! Open a pull request or create an issue to suggest impro
 
 ## License
 This project is licensed under the MIT License. See LICENSE for more details.
+<br>
+
+---
+> **Disclaimer:** This project is for educational and academic purposes only.  
+> It is not intended for use in production systems or handling real-world sensitive data.
