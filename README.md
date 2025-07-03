@@ -4,14 +4,16 @@ This project explores multiple cryptographic algorithms — RSA, ElGamal, and EC
 The goal is to deeply understand cryptographic principles by implementing everything from scratch before applying industry-grade libraries like BouncyCastle and Python cryptography.
 <br><br>
 
+
 ## Index
 - [Available Scripts](#available-scripts)
-- How It Works
-- How to Use
-- Parameters
-- Contributing
-- License
+- [How It Works](#how-it-works)
+- [How to Use](#how-to-use)
+- [Parameters](#parameters)
+- [Contributing](#contributing)
+- [License](#license)
 <br><br>
+
 
 ## Available Scripts
 ### Java - Manual Implementations
@@ -42,6 +44,26 @@ The goal is to deeply understand cryptographic principles by implementing everyt
 - Converts between bytes and strings, encrypts and decrypts securely.
 <br><br>
 
+
+## How It Works
+### Java - Manual
+1. A custom key pair is generated (RSA or ElGamal).
+2. The string message is converted to a `BigInteger`.
+3. Encryption is performed using modular exponentiation.
+4. Decryption reverses the process and restores the original message.
+
+### Java - Library-Based Crypto
+1. Uses BouncyCastle for RSA/ECDSA key generation and secure crypto operations.
+2. Message is converted to bytes, encrypted/decrypted.
+3. Digital signatures (RSA + ECDSA) are generated and verified.
+
+### Python
+1. Cryptographic keys are securely generated with the `cryptography` module.
+2. Messages are encoded into bytes.
+3. Encryption, decryption, and signature processes are securely handled using trusted libraries.
+<br><br>
+
+
 ## How to Use
 1. Clone the repository: <br>`git clone https://github.com/YOUR_USERNAME/cryptography-playground.git`
 2. Navigate to the project directory: <br>`cd cryptography-playground`
@@ -53,4 +75,19 @@ The goal is to deeply understand cryptographic principles by implementing everyt
 Make sure to include all `.java` dependencies in the same directory or classpath.
 
 ### Python
-* Install requirements (if any) and run: <br>pip install cryptography pycryptodome <br>python RSA.py <br>python ELGamal.py
+* Install requirements (if any) and run: <br>`pip install cryptography pycryptodome` <br>`python RSA.py` <br>`python ELGamal.py`
+<br><br>
+
+
+## Parameters
+No command-line parameters are required — messages are defined directly in the code for clarity. You can change them manually in the scripts.
+<br><br>
+
+
+## Contributing
+Feel free to contribute! Open a pull request or create an issue to suggest improvements or new crypto features. Collaboration is welcome — especially if you're experimenting with new algorithms or padding schemes.
+<br><br>
+
+
+## License
+This project is licensed under the MIT License. See LICENSE for more details.
