@@ -2,8 +2,12 @@
 This project explores multiple cryptographic algorithms — RSA, ElGamal, and ECDSA — through manual implementations and secure library-based approaches, in both Java and Python.
 
 The goal is to deeply understand cryptographic principles by implementing everything from scratch before applying industry-grade libraries like BouncyCastle and Python cryptography.
-<br><br>
 
+---
+> **Disclaimer:** This project is for educational and academic purposes only.  
+> It is not intended for use in production systems or handling real-world sensitive data.
+
+<br>
 
 ## Index
 - [Available Scripts](#available-scripts)
@@ -91,8 +95,3 @@ Feel free to contribute! Open a pull request or create an issue to suggest impro
 
 ## License
 This project is licensed under the MIT License. See LICENSE for more details.
-<br>
-
----
-> **Disclaimer:** This project is for educational and academic purposes only.  
-> It is not intended for use in production systems or handling real-world sensitive data.
