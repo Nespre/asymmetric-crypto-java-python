@@ -3,7 +3,6 @@ This project explores multiple cryptographic algorithms — RSA, ElGamal, and EC
 
 The goal is to deeply understand cryptographic principles by implementing everything from scratch before applying industry-grade libraries like BouncyCastle and Python cryptography.
 
----
 > **Disclaimer:** This project is for educational and academic purposes only.  
 > It is not intended for use in production systems or handling real-world sensitive data.
 
