@@ -18,3 +18,15 @@ The goal is to deeply understand cryptographic principles by implementing everyt
 **`ELGamalMain.java`**
 - Implements ElGamal encryption from scratch.
 - **Input**: "This an lesson about Cryptography" <br>**Output**: Encrypted BigIntegers + original message restored.
+
+**`RSAMain.java`**
+- Implements RSA manually, including prime generation, public/private keys, encryption and decryption.
+- Input: "This an lesson about Cryptography" <br>Output: Encrypted BigInteger + Decrypted message.
+
+### Java - Practical RSA & ECDSA with Libraries (BouncyCastle)
+**`Main.java`**
+- Full-feature cryptographic suite:
+	- ✔️RSA encryption/decryption
+	- ✔️RSA digital signatures (PSS + PKCS#1 v1.5)
+	- ✔️ECDSA signatures with verification
+- All done with security-focused libraries including B
