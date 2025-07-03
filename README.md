@@ -32,6 +32,7 @@ The goal is to deeply understand cryptographic principles by implementing everyt
 	- ✔️ECDSA signatures with verification
 - All done with security-focused libraries including BouncyCastle.
 - Outputs shown in both **Hex** and **Base64**.
+<br>
 
 ### Python - Secure Crypto (Library-based)
 **`RSA.py`**
@@ -41,5 +42,14 @@ The goal is to deeply understand cryptographic principles by implementing everyt
 **`ELGamal.py`**
 - ElGamal encryption using secure libraries (PyCryptodome / cryptography).
 - Converts between bytes and strings, encrypts and decrypts securely.
+<br><br>
 
-<br>
+## How to Use
+Clone the repository: <br>`git clone https://github.com/YOUR_USERNAME/cryptography-playground.git`
+
+Navigate to the project directory: <br>`cd cryptography-playground`
+
+### Java
+Compile and run the desired script: <br>`javac RSAMain.java` <br>`java RSAMain`
+Or for the advanced project: <br>`javac Main.java` <br>`java Main`
+Make sure to include all `.java` dependencies in the same directory or classpath.
