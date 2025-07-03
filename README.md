@@ -23,7 +23,6 @@ The goal is to deeply understand cryptographic principles by implementing everyt
 - Implements RSA manually, including prime generation, public/private keys, encryption and decryption.
 - Input: "This an lesson about Cryptography" <br>Output: Encrypted BigInteger + Decrypted message.
 <br>
-
 ### Java - Practical RSA & ECDSA with Libraries (BouncyCastle)
 **`Main.java`**
 - Full-feature cryptographic suite:
@@ -33,7 +32,6 @@ The goal is to deeply understand cryptographic principles by implementing everyt
 - All done with security-focused libraries including BouncyCastle.
 - Outputs shown in both **Hex** and **Base64**.
 <br>
-
 ### Python - Secure Crypto (Library-based)
 **`RSA.py`**
 - RSA encryption/decryption using cryptography primitives.
@@ -45,11 +43,11 @@ The goal is to deeply understand cryptographic principles by implementing everyt
 <br><br>
 
 ## How to Use
-Clone the repository: <br>`git clone https://github.com/YOUR_USERNAME/cryptography-playground.git`
-
-Navigate to the project directory: <br>`cd cryptography-playground`
+1. Clone the repository: <br>`git clone https://github.com/YOUR_USERNAME/cryptography-playground.git`
+1. Navigate to the project directory: <br>`cd cryptography-playground`
 
 ### Java
-Compile and run the desired script: <br>`javac RSAMain.java` <br>`java RSAMain`
-Or for the advanced project: <br>`javac Main.java` <br>`java Main`
+* Compile and run the desired script: <br>`javac RSAMain.java` <br>`java RSAMain`
+* Or for the advanced project: <br>`javac Main.java` <br>`java Main`
+
 Make sure to include all `.java` dependencies in the same directory or classpath.
